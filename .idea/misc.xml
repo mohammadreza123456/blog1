@@ -3,4 +3,9 @@
   <component name="JavaScriptSettings">
     <option name="languageLevel" value="ES6" />
   </component>
+  <component name="Michael.U.Bergens.CopyNixDirPlugin">
+    <option name="replaceWith" value="" />
+    <option name="search" value="" />
+    <option name="tryString" value="C:\dir\blah\meh\file.ext" />
+  </component>
 </project>
