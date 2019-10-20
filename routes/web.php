@@ -11,11 +11,19 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+//solution one
 
-Route::get('/aboutus',function () {
-    return view( 'about-us');
-});
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+// solution two
+
+Route::get('/','PagesController@index');
+
+
+//Route::get('/about-us',function () {
+//    return view( 'about-us');
+//});
+
+Route::get( '/about-us','PagesController@about_us');
 
